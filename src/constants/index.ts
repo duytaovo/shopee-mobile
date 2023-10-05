@@ -23,8 +23,36 @@ export const FONTS = {
   medium: "DMMedium",
   bold: "DMBold",
 };
+export const ICON_MESSAGE: IconIProps = {
+  name: "message1",
+  type: "antdesign",
+};
 
+export const ROUTES = {
+  ...TABS,
+  main: "Main",
+  product: "Product",
+  cart: "Cart",
+  category: "Category",
+  search: "Search",
+  searchResult: "SearchResult",
+
+  message: "Messenger",
+  personal: "Personal",
+};
 export const ICON_HOME = (active: boolean): IconIProps => ({
   name: active ? "home" : "home-outline",
   type: "ionicon",
 });
+
+export const ICON_CART: IconIProps = {
+  name: "shoppingcart",
+  type: "antdesign",
+};
+
+export const ICON_SEARCH: IconIProps = {
+  name: "search1",
+  type: "antdesign",
+};
+
+export const API_URL = "https://shopee-mobile-app-clone-server.onrender.com";
