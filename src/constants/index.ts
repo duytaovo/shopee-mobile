@@ -27,7 +27,14 @@ export const ICON_MESSAGE: IconIProps = {
   name: "message1",
   type: "antdesign",
 };
-
+export const ICON_BACK: IconIProps = {
+  name: "arrow-back",
+  type: "ionicon",
+};
+export const ICON_SHARE: IconIProps = {
+  name: "share-outline",
+  type: "material-community",
+};
 export const ROUTES = {
   ...TABS,
   main: "Main",
@@ -40,11 +47,18 @@ export const ROUTES = {
   message: "Messenger",
   personal: "Personal",
 };
+export const ICON_DOTS_THREE_VERTICAL: IconIProps = {
+  name: "dots-three-vertical",
+  type: "entypo",
+};
 export const ICON_HOME = (active: boolean): IconIProps => ({
   name: active ? "home" : "home-outline",
   type: "ionicon",
 });
-
+export const ICON_HEART = (active: boolean): IconIProps => ({
+  name: active ? "heart" : "hearto",
+  type: "antdesign",
+});
 export const ICON_CART: IconIProps = {
   name: "shoppingcart",
   type: "antdesign",
@@ -55,4 +69,4 @@ export const ICON_SEARCH: IconIProps = {
   type: "antdesign",
 };
 
-export const API_URL = "https://shopee-mobile-app-clone-server.onrender.com";
+export const API_URL = "http://localhost:5032";
