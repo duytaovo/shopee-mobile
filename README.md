@@ -9,6 +9,6 @@
 
 ### expo id
 
-- 0e7f8f7a-2b6d-4ba4-804b-ee6069f05ce7
+- a479ceac-5ff1-46d3-8137-adaca9fc5a4b
 - Manifest: https://exp.host/@voduytao/shop-duytao
 - Project page: https://expo.dev/@voduytao/shop-duytao?serviceType=classic&distribution=expo-go
