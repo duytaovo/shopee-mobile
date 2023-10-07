@@ -29,6 +29,7 @@
     "@types/react": "~18.2.14",
     "axios": "^1.5.1",
     "expo": "~49.0.13",
+    "expo-dev-client": "~2.4.11",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "expo-updates": "~0.18.16",

@@ -11,21 +11,30 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.voduytao.shopduytao"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.voduytao.shopduytao"
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
     },
     "updates": {
       "useClassicUpdates": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a479ceac-5ff1-46d3-8137-adaca9fc5a4b"
+      }
     }
   }
 }
