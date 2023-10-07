@@ -11,7 +11,11 @@ interface IProps {
   rounded?: boolean;
   style?: any;
 }
-const ButtonThreeDot: React.FC<IProps> = ({ color = COLORS.white, rounded, style }) => {
+const ButtonThreeDot: React.FC<IProps> = ({
+  color = COLORS.white,
+  rounded,
+  style,
+}) => {
   const navigation = useNavigation<any>();
 
   const handleNavigateToHome = () => {
@@ -37,7 +41,7 @@ const ButtonThreeDot: React.FC<IProps> = ({ color = COLORS.white, rounded, style
       >
         <Menu.Item onPress={handleNavigateToHome}>Trở về trang chủ</Menu.Item>
         <Divider my="1" w="100%" />
-        <Menu.Item>Tố cáo sản phẩm này</Menu.Item>
+        <Menu.Item>Báo cáo sản phẩm này</Menu.Item>
         <Divider my="1" w="100%" />
         <Menu.Item>Ban cần giúp đỡ?</Menu.Item>
       </Menu>

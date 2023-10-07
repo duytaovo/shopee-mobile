@@ -11,6 +11,15 @@ interface IProps {
 const Carousel: React.FC<IProps> = ({ data }) => {
   const [active, setActive] = useState<number>(0);
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      const checkIdx = active < data.length - 1;
+      setActive(checkIdx ? active + 1 : 0);
+    }, 4200);
+
+    return () => clearTimeout(timeout);
+  }, [active, data]);
+
   return (
     <View style={styles.wrapper}>
       <View style={styles.imageWrapper}>
